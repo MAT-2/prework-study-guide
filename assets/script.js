@@ -20,3 +20,10 @@ function selectTopic() {
     console.log("Please try again!");
   }
 }
+
+console.log(
+  "Welcome! These are the list of topics we learned through the Prework:"
+);
+listTopics();
+console.log("Which topic would we like to study first?");
+selectTopic();
